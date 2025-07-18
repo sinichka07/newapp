@@ -23,7 +23,7 @@ jobs:
           java-version: '12.x'
       - uses: subosito/flutter-action@v1
         with: 
-          flutter-version: '3.0.0'
+          flutter-version: '3.6.1'
       - run: flutter config
       - run: flutter doctor
       - run: flutter pub get
